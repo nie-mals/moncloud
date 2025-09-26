@@ -37,7 +37,9 @@
           {% endcase %}
 
           {% if year != current_year %}
-            <li class="timeline__item timeline__item--year">{{ year }}</li>
+            <li class="timeline__item timeline__item--year">
+             <span class="timeline__date">{{ year }}</span>
+            </li>
             {% assign current_year = year %}
           {% endif %}
 
