@@ -71,8 +71,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/accentos_collab/";
-            },},{id: "news-первый-релиз-платформы-алан-перлис",
-          title: 'Первый релиз платформы: Алан Перлис.',
+            },},{id: "news-релиз-1-0-алан-перлис",
+          title: 'Релиз 1.0: Алан Перлис.',
           description: "",
           section: "News",},{id: "news-дистрибутив-асперитас-получил-сертификат-фстэк-4880-на-соответствие-требованиям-доверия-4-к-средствам-виртуализации-4",
           title: 'Дистрибутив Асперитас получил сертификат ФСТЭК №4880 на соответствие требованиям: доверия(4), к средствам виртуализации(4)....',
@@ -97,6 +97,14 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-релиз-1-4-джеймс-уилкинсон",
           title: 'Релиз 1.4: Джеймс Уилкинсон',
+          description: "",
+          section: "News",},{id: "news-участие-в-выставке-kazan-digital-week-2025",
+          title: 'Участие в выставке Kazan Digital Week 2025.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/kazan_digital_week_2025/";
+            },},{id: "news-релиз-1-5-джон-мак-карти",
+          title: 'Релиз 1.5: Джон Мак-Карти',
           description: "",
           section: "News",},{id: "projects-openstack-as-a-service",
           title: 'Openstack as a Service',
