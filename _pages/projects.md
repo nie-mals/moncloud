@@ -5,7 +5,7 @@ permalink: /products/
 description:
 nav: true
 nav_order: 3
-display_categories: ["Готовые решения", "В разработке", "Предоставление права использования"]
+display_categories: ["Готовые решения", "В разработке"]
 horizontal: false
 ---
 
